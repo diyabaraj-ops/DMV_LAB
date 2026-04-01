@@ -1,13 +1,12 @@
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
-y = [10, 20, 25, 30, 40]
+y = [2, 3, 5, 7, 11]
 
-plt.scatter(x, y)
+plt.step(x, y)
 
-plt.title("Scatter Plot")
+plt.title("Stair Plot")
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 
 plt.show()
-
